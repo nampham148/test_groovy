@@ -11,9 +11,9 @@ def odd = [1,2,3].findAll{ item ->
 println odd
 
 def newlist = list.findAll{item ->
-    item.y <= 3
+    return item.y <= 3
 }.collect{ item ->
-    item.x
+    return item.x
 }.sort().join("-")
 
 println newlist
