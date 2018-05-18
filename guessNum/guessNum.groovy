@@ -10,9 +10,10 @@ class guessNum {
 
         def options = ["correct", "higher", "lower"]
         def feedback
+        def middle
 
         while (min <= max) {
-            def middle = (max + min).intdiv(2)
+            middle = (max + min).intdiv(2)
             print "Im guessing $middle! Is this the correct number, or higher or lower? "
             feedback = options.indexOf(br.readLine())
 
