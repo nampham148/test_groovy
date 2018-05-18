@@ -4,9 +4,20 @@ class guessNum {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in))
         println "Let me guess your integer!"
         print "Maximum Value: "
-        def max = br.readLine().toInteger()
+        def max = br.readLine()
+        while (!max.isInteger()) {
+            print "Please enter an integer: "
+            max = br.readLine()
+        }
+        max = max.toInteger()
+
         print "Minimum Value: "
-        def min = br.readLine().toInteger()
+        def min = br.readLine()
+        while (!min.isInteger()) {
+            print "Please enter an integer: "
+            min = br.readLine()
+        }
+        min = min.toInteger()
 
         def options = ["correct", "higher", "lower"]
         def feedback
@@ -34,7 +45,5 @@ class guessNum {
 
         println "The number you're thinking of is not in range"
         return
-
-
     }
 }
