@@ -14,7 +14,7 @@ class Game {
         String name = br.readLine()
         print "Please enter your character: "
         String type = br.readLine()
-        while (type.size() > 3 || type.size() == 0 || type in playerType) {
+        while (type.size() > 3 || type.size() == 0 || type in playerCheckerList) {
             print "Please enter something different between 1 and 3 characters: "
             type = br.readLine()
         }
