@@ -133,7 +133,7 @@ class Board {
     }
 
     boolean isFull() {
-        return occupied >= 25
+        return occupied == 25
     }
 
     int centerness(int row, int col) {
