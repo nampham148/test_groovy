@@ -2,7 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df5099e1-558c-493e-8fa4-6a78a2f05d42" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/eventListener.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/isCase.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/namedPara.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testClass.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XO/Board.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/XO/Board.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Board$_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Board$_toString_closure2$_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Board$_toString_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Board$_toString_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Book$_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Closures$_benchmark_closure6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Closures$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Closures$_run_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Closures$_run_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Closures$_run_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Closures$_run_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Closures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Map$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Range.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Week$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Week.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Weekday.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/fib$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/fib.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/guessNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/list1$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/list1$_run_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/list1$_run_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/list1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/main.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +52,8 @@
       <file leaf-file-name="Game.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/XO/Game.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-167">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="n#!!block;n#setupPlayer#0;n#!!block;n#Game#0" />
-              </folding>
+            <state relative-caret-position="-118">
+              <caret line="16" column="79" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -29,8 +61,8 @@
       <file leaf-file-name="Board.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/XO/Board.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="135" column="25" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
+            <state relative-caret-position="765">
+              <caret line="196" column="30" lean-forward="true" selection-start-line="196" selection-start-column="30" selection-end-line="196" selection-end-column="30" />
               <folding>
                 <element signature="n#!!block;n#Board#0;n#!!block;n#Board#0" />
                 <element signature="n#!!block;n#otherType#0;n#!!block;n#Board#0" />
@@ -38,8 +70,25 @@
                 <element signature="n#!!block;n#addChecker#0;n#!!block;n#Board#0" />
                 <element signature="n#!!block;n#removeChecker#0;n#!!block;n#Board#0" />
                 <element signature="n#!!block;n#isWinner#0;n#!!block;n#Board#0" />
+                <element signature="n#!!block;n#isFull#0;n#!!block;n#Board#0" />
+                <element signature="n#!!block;n#isFull#0;n#!!block;n#Board#0" />
                 <element signature="n#!!block;n#centerness#0;n#!!block;n#Board#0" />
                 <element signature="n#!!block;n#openness#0;n#!!block;n#Board#0" />
+                <element signature="n#!!block;n#occupied#0;n#!!block;n#Board#0" />
+                <element signature="n#!!block;n#occupied#0;n#!!block;n#Board#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AIPlayer.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XO/AIPlayer.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+              <folding>
+                <element signature="n#!!block;n#evalMove#0;n#!!block;n#AIPlayer#0" />
+                <element signature="n#!!block;n#makeMove#0;n#!!block;n#AIPlayer#0" />
               </folding>
             </state>
           </provider>
@@ -48,14 +97,11 @@
       <file leaf-file-name="Player.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/XO/Player.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-304">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="390">
+              <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
               <folding>
-                <element signature="n#!!block;n#Player#0;n#!!block;n#Player#0" />
                 <element signature="n#!!block;n#getName#0;n#!!block;n#Player#0" />
                 <element signature="n#!!block;n#getName#0;n#!!block;n#Player#0" />
-                <element signature="n#!!block;n#getType#0;n#!!block;n#Player#0" />
-                <element signature="n#!!block;n#getType#0;n#!!block;n#Player#0" />
               </folding>
             </state>
           </provider>
@@ -78,6 +124,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GroovyConsoleState">
+    <option name="list">
+      <list>
+        <Entry>
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
+          <option name="moduleName" value="test" />
+          <option name="title" value="test (Groovy 2.4.15)" />
+        </Entry>
+      </list>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -95,9 +152,15 @@
         <option value="$PROJECT_DIR$/guessNum/guessNum.groovy" />
         <option value="$PROJECT_DIR$/src/Point.groovy" />
         <option value="$PROJECT_DIR$/src/pass_args.groovy" />
-        <option value="$PROJECT_DIR$/XO/Player.groovy" />
         <option value="$PROJECT_DIR$/XO/AIPlayer.groovy" />
         <option value="$PROJECT_DIR$/XO/Game.groovy" />
+        <option value="$PROJECT_DIR$/src/isCase.groovy" />
+        <option value="$PROJECT_DIR$/src/ClassWithTypedAndUntypedFieldsAndProperties.groovy" />
+        <option value="$PROJECT_DIR$/src/testClass.groovy" />
+        <option value="$PROJECT_DIR$/src/namedPara.groovy" />
+        <option value="$PROJECT_DIR$/src/eventListener.groovy" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
+        <option value="$PROJECT_DIR$/XO/Player.groovy" />
         <option value="$PROJECT_DIR$/XO/Board.groovy" />
       </list>
     </option>
@@ -113,6 +176,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,20 +193,13 @@
             <path>
               <item name="test_groovy" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_groovy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_groovy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_groovy" type="462c0819:PsiDirectoryNode" />
               <item name="XO" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -224,34 +282,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021962" side_tool="true" weight="0.3483871" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021962" side_tool="true" weight="0.3483871" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4978038" visible="true" weight="0.21451613" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4978038" visible="true" weight="0.32580644" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16251831" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32903227" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32903227" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -259,10 +316,134 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/isCase.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XO/AIPlayer.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="n#!!block;n#evalMove#0;n#!!block;n#AIPlayer#0" />
+            <element signature="n#!!block;n#makeMove#0;n#!!block;n#AIPlayer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XO/Board.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!block;n#Board#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#otherType#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#toString#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#addChecker#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#removeChecker#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#isWinner#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#isFull#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#isFull#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#centerness#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#openness#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#occupied#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#occupied#0;n#!!block;n#Board#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/isCase.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XO/AIPlayer.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="n#!!block;n#evalMove#0;n#!!block;n#AIPlayer#0" />
+            <element signature="n#!!block;n#makeMove#0;n#!!block;n#AIPlayer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XO/Board.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!block;n#Board#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#otherType#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#toString#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#addChecker#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#removeChecker#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#isWinner#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#isFull#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#isFull#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#centerness#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#openness#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#occupied#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#occupied#0;n#!!block;n#Board#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/isCase.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XO/AIPlayer.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="n#!!block;n#evalMove#0;n#!!block;n#AIPlayer#0" />
+            <element signature="n#!!block;n#makeMove#0;n#!!block;n#AIPlayer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XO/Board.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" column="41" lean-forward="true" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!block;n#Board#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#otherType#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#toString#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#addChecker#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#removeChecker#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#isWinner#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#isFull#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#isFull#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#centerness#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#openness#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#occupied#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#occupied#0;n#!!block;n#Board#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/isCase.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/guessNum/guessNum.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -281,8 +462,12 @@
             <element signature="n#!!block;n#addChecker#0;n#!!block;n#Board#0" />
             <element signature="n#!!block;n#removeChecker#0;n#!!block;n#Board#0" />
             <element signature="n#!!block;n#isWinner#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#isFull#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#isFull#0;n#!!block;n#Board#0" />
             <element signature="n#!!block;n#centerness#0;n#!!block;n#Board#0" />
             <element signature="n#!!block;n#openness#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#occupied#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#occupied#0;n#!!block;n#Board#0" />
           </folding>
         </state>
       </provider>
@@ -291,13 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="n#!!block;n#Player#0;n#!!block;n#Player#0" />
-            <element signature="n#!!block;n#getName#0;n#!!block;n#Player#0" />
-            <element signature="n#!!block;n#getName#0;n#!!block;n#Player#0" />
-            <element signature="n#!!block;n#getType#0;n#!!block;n#Player#0" />
-            <element signature="n#!!block;n#getType#0;n#!!block;n#Player#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -305,9 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!block;n#setupPlayer#0;n#!!block;n#Game#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -322,9 +497,7 @@
     <entry file="file://$PROJECT_DIR$/src/Week.groovy" />
     <entry file="file://$PROJECT_DIR$/src/String.groovy" />
     <entry file="file://$PROJECT_DIR$/src/List.groovy" />
-    <entry file="file://$PROJECT_DIR$/src/Map.groovy">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Map.groovy" />
     <entry file="file://$PROJECT_DIR$/src/fib.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -346,18 +519,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Object.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/test/Book.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/test/Book.class" />
     <entry file="file://$PROJECT_DIR$/src/Point.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -415,10 +577,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassWithTypedAndUntypedFieldsAndProperties.groovy" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eventListener.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/namedPara.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testClass.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Object.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/isCase.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XO/Game.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118">
+          <caret line="16" column="79" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/XO/AIPlayer.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
           <folding>
             <element signature="n#!!block;n#evalMove#0;n#!!block;n#AIPlayer#0" />
             <element signature="n#!!block;n#makeMove#0;n#!!block;n#AIPlayer#0" />
@@ -428,32 +644,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/XO/Player.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-304">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="390">
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
           <folding>
-            <element signature="n#!!block;n#Player#0;n#!!block;n#Player#0" />
             <element signature="n#!!block;n#getName#0;n#!!block;n#Player#0" />
             <element signature="n#!!block;n#getName#0;n#!!block;n#Player#0" />
-            <element signature="n#!!block;n#getType#0;n#!!block;n#Player#0" />
-            <element signature="n#!!block;n#getType#0;n#!!block;n#Player#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XO/Game.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-167">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="n#!!block;n#setupPlayer#0;n#!!block;n#Game#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XO/Board.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="135" column="25" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
+        <state relative-caret-position="765">
+          <caret line="196" column="30" lean-forward="true" selection-start-line="196" selection-start-column="30" selection-end-line="196" selection-end-column="30" />
           <folding>
             <element signature="n#!!block;n#Board#0;n#!!block;n#Board#0" />
             <element signature="n#!!block;n#otherType#0;n#!!block;n#Board#0" />
@@ -461,8 +664,12 @@
             <element signature="n#!!block;n#addChecker#0;n#!!block;n#Board#0" />
             <element signature="n#!!block;n#removeChecker#0;n#!!block;n#Board#0" />
             <element signature="n#!!block;n#isWinner#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#isFull#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#isFull#0;n#!!block;n#Board#0" />
             <element signature="n#!!block;n#centerness#0;n#!!block;n#Board#0" />
             <element signature="n#!!block;n#openness#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#occupied#0;n#!!block;n#Board#0" />
+            <element signature="n#!!block;n#occupied#0;n#!!block;n#Board#0" />
           </folding>
         </state>
       </provider>

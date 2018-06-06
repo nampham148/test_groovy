@@ -77,7 +77,7 @@ class Board {
         //check cols
         for (it in 0..4){
             check = ""
-            for (int i = 0; i < 5; i++) {
+            for (int i = 0; i < 5; i++) {1
                 check += board[i][it]
             }
 
@@ -170,9 +170,38 @@ class Board {
     }
 
     static void main (String[] args) {
-        Board a = new Board()
-        println a
-        println a.isWinner("o")
-    }
+        Board a = new Board("x", "o")
+        assert a.occupied == 0
 
+        assert a.board[2][2] == " "
+
+        //insert
+        a.addChecker("x", 2, 2)
+        assert a.board[2][2] == "x"
+        assert a.occupied == 1
+
+        a.addChecker("o", 2, 1)
+        assert a.board[2][1] == "o"
+        assert a.occupied == 2
+
+        //remove
+        a.removeChecker(2, 1)
+        assert a.board[2][1] == " "
+        assert a.occupied == 1
+
+        //isWinner
+        assert !a.isWinner("x")
+        a.addChecker("x", 3, 1)
+        a.addChecker("x", 1, 3)
+        a.addChecker("x", 0, 4)
+        assert a.isWinner("x")
+
+        assert a.centerness(2, 2) == 20
+        assert a.centerness(1, 3) == 10
+
+        assert a.openness(2, 3) == 70
+
+        assert a.occupied(3, 1)
+        assert !a.occupied(3, 3)
+    }
 }
